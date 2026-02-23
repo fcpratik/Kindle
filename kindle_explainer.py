@@ -246,5 +246,11 @@ if __name__ == "__main__":
     # Register global hotkey
     keyboard.add_hotkey(HOTKEY, on_hotkey)
 
+    def kill_app():
+        print("\n🔴 Ctrl+D pressed — shutting down Kindle Explainer...")
+        os._exit(0)
+
+    keyboard.add_hotkey("ctrl+d", kill_app)
+    print("🔴 Press Ctrl+D anytime to stop the app\n")
     # Run tray icon (blocking)
     run_tray()

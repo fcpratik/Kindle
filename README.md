@@ -57,7 +57,7 @@ You'll see a confirmation in the terminal and a small icon in your system tray.
 | **Explain a sentence** | Select text in Kindle → Ctrl+C → Ctrl+Shift+E |
 | **Close the popup** | Click the ✕ button on the popup |
 | **Stop the app** | Right-click system tray icon → Quit |
-| **Stop in VS Code** | Click terminal → Ctrl+C |
+| **Stop in VS Code** | Click terminal → Ctrl+D |
 
 ---
 
@@ -107,7 +107,7 @@ Groq's free tier is very generous for reading use:
 → Always press Ctrl+C first to copy the new text, then press the hotkey.
 
 **App won't stop**
-→ Right-click the tray icon → Quit, then Ctrl+C in the terminal.
+→ Press Ctrl+D in the terminal.
 
 ---
 
